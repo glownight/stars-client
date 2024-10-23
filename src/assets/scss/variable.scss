@@ -1,0 +1,7 @@
+$red: #f00;
+
+@mixin line-text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

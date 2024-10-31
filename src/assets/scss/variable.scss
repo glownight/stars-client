@@ -1,5 +1,8 @@
 $red: #f00;
 
+// 背景颜色
+$bg-color: #242400;
+
 @mixin line-text-overflow{
     overflow: hidden;
     text-overflow: ellipsis;

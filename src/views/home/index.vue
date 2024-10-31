@@ -5,6 +5,8 @@ import { ElMessage } from "element-plus";
 import IndexedDB from "@/utils/indexedDB";
 import { fetchRoom } from "@/api/index";
 
+import Header from "@/components/Header.vue";
+
 const open = () => {
   ElMessage("This is a message.");
 };
@@ -57,18 +59,20 @@ getRoomList();
 </script>
 
 <template>
-  首页<el-button :plain="true" @click="open">Show message</el-button>
+  <!-- 首页<el-button :plain="true" @click="open">Show message</el-button> -->
   <!-- <el-button :plain="true" @click="addData('Room')">添加数据</el-button>
   <el-button :plain="true" @click="deleteData('Room', 8)">删除数据</el-button>
   <el-button :plain="true" @click="getAllData('Room')">查询所有数据</el-button>
   <el-button :plain="true" @click="getData('Room', 4)" -->
   <!-- >查询某一条数据</el-button -->
-  >
-  <el-button :plain="true" @click="openVn">Show message</el-button>
+
+  <!-- <el-button :plain="true" @click="openVn">Show message</el-button>
 
   <div class="text">
     kakdklakaadafafafwafawfffffffffffffffffffffwawdadwwdwdwwdwdwwddwddd
-  </div>
+  </div> -->
+
+  <Header />
 </template>
 
 <style lang="scss" scoped>

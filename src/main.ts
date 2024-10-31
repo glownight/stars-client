@@ -6,7 +6,7 @@ import { store } from "./store";
 import ElementPlus, { ElMessage } from "element-plus";
 
 import "element-plus/dist/index.css";
-import "@/assets/global.css";
+// import "@/assets/global.css";
 
 const app = createApp(App);
 app.config.globalProperties.$message = ElMessage;

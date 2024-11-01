@@ -1,29 +1,30 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">
+  <div class="header">
     <span class="title">星垂平野。</span>
-    <hr />
   </div>
 </template>
 
 <style scoped lang="scss">
-.container {
-  height: 100%;
+.header {
+  height: 5em;
+  margin: 1em;
+  border-bottom: 1px solid rgb(211, 211, 211);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* justify-content: center; */
   align-items: center;
-  background-color: #333;
-  color: #fff;
-  font-size: 24px;
+  /* background-color: #333; */
+  /* color: #fff; */
+  // font-size: 19px;
   font-weight: bold;
-  text-align: center;
   .title {
-    font-size: 48px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    color: #fff;
+    color: #556677;
+    cursor: pointer;
   }
 }
 </style>

@@ -6,6 +6,7 @@ import IndexedDB from "@/utils/indexedDB";
 import { fetchRoom } from "@/api/index";
 
 import Header from "@/components/Header.vue";
+import LatestArticlesList from "./components/LatestArticlesList.vue";
 
 const open = () => {
   ElMessage("This is a message.");
@@ -73,8 +74,69 @@ getRoomList();
   </div> -->
 
   <Header />
+  <div class="latest-articles-preview">
+    <div class="title">AI 开发的捷径：工作流模式</div>
+    <div class="tags">分类： <span>开发者手册</span></div>
+    <div class="latest-articles-content">
+      大部分人使用 AI，大概都跟我一样，停留在初级阶段。
+    </div>
+    <div class="more-read">继续阅读全文 »</div>
+    <div class="info">2024年10月31日 03:24 | <span>留言（5）</span></div>
+  </div>
+  <div class="content">
+    <LatestArticlesList></LatestArticlesList>
+  </div>
 </template>
 
 <style lang="scss" scoped>
 @import "@/assets/scss/home/index.scss";
+.latest-articles-preview {
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  .title {
+    font-size: 2.88em;
+    color: #7d6d6d;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin: 0.4em 0px 0.2em;
+    padding: 0px 0px 0.2em;
+    border-bottom: 1px solid rgb(111, 92, 92);
+    cursor: pointer;
+  }
+  .tags {
+    display: flex;
+    justify-content: end;
+    span {
+      color: orange;
+      cursor: pointer;
+    }
+  }
+  .latest-articles-content {
+    min-height: 50px;
+    // max-height: 300px;
+    color: #ccc;
+  }
+  .more-read {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: green;
+    min-height: 3em;
+    border-bottom: 1px solid rgb(111, 92, 92);
+    cursor: pointer;
+  }
+  .info {
+    font-size: 0.5em;
+    span {
+      color: gray;
+      cursor: pointer;
+    }
+  }
+}
+.content {
+  width: 60%;
+  padding: 0 1.2em;
+}
 </style>

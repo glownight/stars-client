@@ -75,10 +75,13 @@ getRoomList();
 
   <Header />
   <div class="latest-articles-preview">
-    <div class="title">AI 开发的捷径：工作流模式</div>
-    <div class="tags">分类： <span>开发者手册</span></div>
+    <div class="title">📖唯有我们觉醒之际，天才会破晓|《瓦尔登湖》</div>
+    <div class="tags">分类： <span>随笔</span></div>
     <div class="latest-articles-content">
-      大部分人使用 AI，大概都跟我一样，停留在初级阶段。
+      <p>
+        "一片瓦尔登湖。我们不需要社交。不需要千篇一律的活法。而是按照自己心之所向。去做自己觉得是真理的事。"
+      </p>
+      <p>“心灵的空虚，灵魂的空白才是真正的孤独。”</p>
     </div>
     <div class="more-read">继续阅读全文 »</div>
     <div class="info">2024年10月31日 03:24 | <span>留言（5）</span></div>

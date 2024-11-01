@@ -2,7 +2,7 @@
 
 <template>
   <div class="latest-articles-list">
-    <div class="title">最新文章</div>
+    <div class="title">最新文摘</div>
     <div class="content">
       <li>📖 最黑暗的时刻出现在黎明之前。|《牧羊少年奇幻之旅》</li>
       <li>📖 只要活着，一切都会有希望。 |《堂吉诃德》</li>

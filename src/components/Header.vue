@@ -10,7 +10,7 @@
 .header {
   height: 5em;
   margin: 1em;
-  border-bottom: 1px solid rgb(211, 211, 211);
+  // border-bottom: 1px solid rgb(211, 211, 211);
   display: flex;
   /* flex-direction: column; */
   /* justify-content: center; */

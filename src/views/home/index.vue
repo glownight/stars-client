@@ -75,7 +75,7 @@ getRoomList();
 
   <Header />
   <div class="latest-articles-preview">
-    <div class="title">📖唯有我们觉醒之际，天才会破晓|《瓦尔登湖》</div>
+    <div class="title">唯有我们觉醒之际，天才会破晓</div>
     <div class="tags">分类： <span>随笔</span></div>
     <div class="latest-articles-content">
       <p>
@@ -84,7 +84,10 @@ getRoomList();
       <p>“心灵的空虚，灵魂的空白才是真正的孤独。”</p>
     </div>
     <div class="more-read">继续阅读全文 »</div>
-    <div class="info">2024年10月31日 03:24 | <span>留言（5）</span></div>
+    <div class="info">
+      2024年10月31日 03:24
+      <!-- <span>留言（5）</span> -->
+    </div>
   </div>
   <div class="content">
     <LatestArticlesList></LatestArticlesList>
@@ -99,7 +102,7 @@ getRoomList();
   flex-direction: column;
   width: 80%;
   .title {
-    font-size: 2.88em;
+    font-size: 1.7em;
     color: #7d6d6d;
     font-weight: 500;
     letter-spacing: -0.03em;
@@ -124,7 +127,7 @@ getRoomList();
   .more-read {
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1em;
     color: green;
     min-height: 3em;
     border-bottom: 1px solid rgb(111, 92, 92);
@@ -132,14 +135,14 @@ getRoomList();
   }
   .info {
     font-size: 0.5em;
+    color: rgb(117, 111, 111);
     span {
-      color: gray;
       cursor: pointer;
     }
   }
 }
 .content {
-  width: 60%;
+  width: 55%;
   padding: 0 1.2em;
 }
 </style>

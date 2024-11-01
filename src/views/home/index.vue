@@ -142,7 +142,8 @@ getRoomList();
   }
 }
 .content {
-  width: 55%;
+  display: inline-block;
+  width: auto;
   padding: 0 1.2em;
 }
 </style>

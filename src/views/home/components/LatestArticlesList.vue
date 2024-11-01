@@ -43,6 +43,7 @@
     }
     .more {
       font-weight: 900;
+      color: #9d8d8d;
     }
   }
 }

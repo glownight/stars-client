@@ -123,6 +123,10 @@ getRoomList();
     min-height: 50px;
     // max-height: 300px;
     color: #ccc;
+    background-color: #292829;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.9em;
   }
   .more-read {
     display: flex;

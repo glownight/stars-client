@@ -95,7 +95,7 @@ getRoomList();
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/scss/home/index.scss";
+@use "@/assets/scss/home/index.scss";
 .latest-articles-preview {
   padding: 0 2em;
   display: flex;

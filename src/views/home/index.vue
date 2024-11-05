@@ -126,7 +126,7 @@ getRoomList();
     background-color: #292829;
     border-radius: 1em;
     padding: 1em;
-    font-size: 0.9em;
+    font-size: 1.3em;
   }
   .more-read {
     display: flex;
